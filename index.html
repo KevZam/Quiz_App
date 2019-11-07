@@ -1,79 +1,204 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <title>Quiz Application</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
 
-</head>
-
-<body>
+  <body>
     <main class="container">
+      <header></header>
+      <div class="intro-view">
+        <h2 class="description">intro-view</h2>
+        <h1>Halloween Quiz</h1>
+        <button type="button">Start</button>
+      </div>
 
-        <header>
-        </header>
-        <div class="intro-view">
-            <h1>Halloween Quiz</h1>
-            <button type="button">Start</button>
-        </div>
+      <div class="question-view">
+        <h2 class="description">question-view</h2>
+        <ul>
+          <li>Question: <span>0</span>/10</li>
+          <li>
+            Score:
+            <span>0</span>
+          </li>
+        </ul>
+        <h2>Originally, what fruit or vegetable was carved for Halloween?</h2>
+        <form name="question">
+          <input type="radio" name="answer" />Pumpkin
+          <br />
+          <input type="radio" name="answer" />Watermelon
+          <br />
+          <input type="radio" name="answer" />Turnip
+          <br />
+          <input type="radio" name="answer" />Squash
+          <br />
+        </form>
+        <button type="button">Submit</button>
+      </div>
 
-        <div class="question-view">
-            <ul>
-                <li>Question:
-                    <span>0</span>/10
-                </li>
-                <li> Score:
-                    <span>0</span>
-                </li>
-            </ul>
-            <h2> What year did Halloween begin? </h2>
-            <form name="question">
-                <input type="radio" name="answer" />1950
-                <br />
-                <input type="radio" name="answer" />1960
-                <br />
-                <input type="radio" name="answer" />1970
-                <br />
-                <input type="radio" name="answer" />1980
-                <br />
-            </form>
-            <button type="button"> Submit </button>
-        </div>
+      <div class="question-view">
+        <h2 class="description">question-view</h2>
+        <ul>
+          <li>Question: <span>0</span>/10</li>
+          <li>
+            Score:
+            <span>0</span>
+          </li>
+        </ul>
+        <h2>What is the purpose of Jack-o'-lanterns?</h2>
+        <form name="question">
+          <input type="radio" name="answer" />They look cool
+          <br />
+          <input type="radio" name="answer" />They were carried to frighten evil
+          spirits
+          <br />
+          <input type="radio" name="answer" />People used them to keep warm
+          <br />
+          <input type="radio" name="answer" />People liked the smell
+          <br />
+        </form>
+        <button type="button">Submit</button>
+      </div>
 
-        <div class="feedback-view">
-            <ul>
-                <li>Question:
-                    <span>0</span>/10
-                </li>
-                <li> Score:
-                    <span>0</span>
-                </li>
-            </ul>
-            <h2> What year did Halloween begin? </h2>
-            <form name="question">
-                <input type="radio" name="answer" />1950
-                <br />
-                <div>Correct Answer</div>
-                <input type="radio" name="answer" />1960
-                <br />
-                <div>Incorrect Answer</div>
-                <input type="radio" name="answer" />1970
-                <br />
-                <input type="radio" name="answer" />1980
-                <br />
-            </form>
-            <button type="button">Next</button>
-        </div>
-        <div class="results-view">
-            <h2> Score: 7/10 </h2>
-            <button type="button">Restart</button>
-        </div>
+      <div class="question-view">
+        <h2 class="description">question-view</h2>
+        <ul>
+          <li>Question: <span>0</span>/10</li>
+          <li>
+            Score:
+            <span>0</span>
+          </li>
+        </ul>
+        <h2>What does the word 'Halloween' mean?</h2>
+        <form name="question">
+          <input type="radio" name="answer" />Night of Evil
+          <br />
+          <input type="radio" name="answer" />Saints evening
+          <br />
+          <input type="radio" name="answer" />Devil's Day
+          <br />
+          <input type="radio" name="answer" />Nevermore
+          <br />
+        </form>
+        <button type="button">Submit</button>
+      </div>
 
-        <script src="script.js"></script>
+      <div class="question-view">
+        <h2 class="description">question-view</h2>
+        <ul>
+          <li>Question: <span>0</span>/10</li>
+          <li>
+            Score:
+            <span>0</span>
+          </li>
+        </ul>
+        <h2>
+          Which of the following is NOT a traditional Halloween Activity?
+        </h2>
+        <form name="question">
+          <input type="radio" name="answer" />Apple bobbing
+          <br />
+          <input type="radio" name="answer" />Trick-or-treating
+          <br />
+          <input type="radio" name="answer" />Lighting bonfires
+          <br />
+          <input type="radio" name="answer" />Eating massive amounts of candy
+          <br />
+        </form>
+        <button type="button">Submit</button>
+      </div>
+
+      <div class="question-view">
+        <h2 class="description">question-view</h2>
+        <ul>
+          <li>Question: <span>0</span>/10</li>
+          <li>
+            Score:
+            <span>0</span>
+          </li>
+        </ul>
+        <h2>What do Jack-o'-lanterns represent?</h2>
+        <form name="question">
+          <input type="radio" name="answer" />A soul trapped in purgatory
+          <br />
+          <input type="radio" name="answer" />The Enlightenment
+          <br />
+          <input type="radio" name="answer" />A Celtic King
+          <br />
+          <input type="radio" name="answer" />A lost child
+          <br />
+        </form>
+        <button type="button">Submit</button>
+      </div>
+
+      <div class="feedback-view">
+        <h2 class="description">feedback-view 'Correct'</h2>
+        <ul>
+          <li>Question: <span>1</span>/10</li>
+          <li>
+            Score:
+            <span>1</span>
+          </li>
+        </ul>
+        <h2>Correct!</h2>
+        <form name="question">
+          <input type="radio" name="answer" />1950
+          <br />
+          <div>Correct Answer</div>
+          <input type="radio" name="answer" />1960
+          <br />
+          <div>Incorrect Answer</div>
+          <input type="radio" name="answer" />1970
+          <br />
+          <input type="radio" name="answer" />1980
+          <br />
+        </form>
+        <button type="button">Next</button>
+      </div>
+
+      <div class="feedback-view">
+        <h2 class="description">feedback-view 'Incorrect'</h2>
+        <ul>
+          <li>Question: <span>1</span>/10</li>
+          <li>
+            Score:
+            <span>0</span>
+          </li>
+        </ul>
+        <h2>Incorrect</h2>
+        <form name="question">
+          <input type="radio" name="answer" />1950
+          <br />
+          <div>Correct Answer</div>
+          <input type="radio" name="answer" />1960
+          <br />
+          <div>Incorrect Answer</div>
+          <input type="radio" name="answer" />1970
+          <br />
+          <input type="radio" name="answer" />1980
+          <br />
+        </form>
+        <button type="button">Next</button>
+      </div>
+
+      <div class="results-view">
+        <h2 class="description">Results View</h2>
+        <h2>Score: 7/10</h2>
+        <button type="button">Restart</button>
+      </div>
+      <div class="images">
+        <h1>Images</h1>
+        <img
+          src="https://www.letsgetmessy.co.uk/wp-content/uploads/2017/08/spooky-halloween-background-with-pumpkins-in-a-cemetery_1048-3055.jpg"
+        />
+      </div>
+
+      <script src="script.js"></script>
     </main>
-</body>
+  </body>
 </html>
 
 <!-- Intro View - shows just welcome message and start button
